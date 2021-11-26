@@ -56,3 +56,55 @@ li:hover .detail {
 #moods .mood p {
   text-align: center;
 }
+
+li.dropdown:hover ul.dropdown-menu {
+  display: block!important;
+}
+
+.banner {
+  background: #f55;
+  position: relative;
+  padding: 20px;
+}
+
+.banner h2 {
+  color: white;
+  font-size: 4em;
+  text-align: center;
+  text-shadow: 0px 2px 20px #fff;
+  text-transform: uppercase;
+}
+
+.banner .top-content, .banner .mid-content, .banner .bot-content {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.banner .content {
+  margin: 10px;
+}
+
+.banner .top-content {
+  font-size: 2rem;
+}
+
+.banner .mid-content {
+  font-size: 7em;
+  font-weight: bold;
+}
+
+.banner .bot-content {
+  font-size: 4em;
+}
+
+#cards {
+  margin-top: 15px;
+}
+
+#cards .card .card-title{
+  font-weight: bold;
+}
+#cards .card .card-price {
+  color: red;
+}
