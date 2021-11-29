@@ -108,3 +108,8 @@ li.dropdown:hover ul.dropdown-menu {
 #cards .card .card-price {
   color: red;
 }
+
+.required .col-form-label:after {
+  content:"*";
+  color:red;
+}
